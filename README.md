@@ -1,5 +1,5 @@
 # my-sniperbot
-The bot is developed to snip tokens on BNB
+The bot is developed to snip tokens on BNB,
 create a folder in your IDE and name it my-sniperbot, create a .env and input your wallet address private key, you will get your sniper contract after deploying the contract in remix.
 
 create .env file and copy and paste this.
