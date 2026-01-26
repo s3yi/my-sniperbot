@@ -1,5 +1,5 @@
-// SniperBSC_MAINNET.js - FIXED VERSION
-// ✅ 100% Working WebSocket connections with fallback
+// SniperBSC_MAINNET.js
+
 
 require("dotenv").config(); 
 const { ethers } = require("ethers");
@@ -343,5 +343,6 @@ process.on('uncaughtException', (err) => {
 process.on('unhandledRejection', (reason, promise) => {
   console.error(`\n❌ UNHANDLED REJECTION:`, reason);
 });
+
 
 console.log(`\n⏳ Starting bot...\n`);
