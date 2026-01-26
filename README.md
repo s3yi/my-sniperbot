@@ -1,12 +1,12 @@
 # my-sniperbot
 The bot is developed to snip tokens on BNB,
-create a folder in your IDE and name it my-sniperbot, create a .env and input your wallet address private key, you will get your sniper contract after deploying the contract in remix.
+create a folder in your IDE and name it my-sniperbot, create a .env file and input your wallet address private key, you will get your sniper contract after deploying the contract in remix.
 
 create .env file and copy and paste this.
 PRIVATE_KEY= **********
 SNIPER_CONTRACT= *********
 
-download the files and upload to your my-sniperbot folder.
+download these files and upload to your my-sniperbot folder.
 
 go to https://remix.ethereum.org/ and connect your evm wallet to your remix IDE, go to "contract folder" and create "SniperBot.sol" file , paste the codes in Sniper.sol file downloaded and paste it there. 
 
