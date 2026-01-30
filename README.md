@@ -19,7 +19,7 @@ factory: "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
 
   After deploying contract , copy the contract address and paste it in ".env" file
 
-  Then run node BscSniper.js in your terminal, you will newly launched tokens awaiting to be sniped
+  Then run node BscSniper.js in your terminal, you will see newly launched tokens awaiting to be sniped
 
 in summary:
 STEP 1: DEPLOY CONTRACT (Remix)                    
