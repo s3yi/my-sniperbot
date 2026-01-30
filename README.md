@@ -33,7 +33,7 @@ STEP 2: FUND CONTRACT
 
 STEP 3: SETUP BOT FILES                            
 │  ✅ npm install ethers dotenv                       
-│  ✅ Create SniperBSC_MAINNET.js                     
+│  ✅ Create BscSniper.js                     
 │  ✅ Create AutoSell.js                            
 │  ✅ Create sellControl.js    
 
