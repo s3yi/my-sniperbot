@@ -20,3 +20,30 @@ factory: "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
   After deploying contract , copy the contract address and paste it in ".env" file
 
   Then run node BscSniper.js in your terminal, you will newly launched tokens awaiting to be sniped
+
+in summary:
+STEP 1: DEPLOY CONTRACT (Remix)                    
+│  ✅ Compile SniperBot.sol                           
+│  ✅ Deploy to BSC Mainnet                           
+│  ✅ Copy contract address
+
+STEP 2: FUND CONTRACT                              
+│  ✅ Send 0.1 BNB to contract or less                       
+│  ✅ Verify on BscScan   
+
+STEP 3: SETUP BOT FILES                            
+│  ✅ npm install ethers dotenv                       
+│  ✅ Create SniperBSC_MAINNET.js                     
+│  ✅ Create AutoSeller.js                            
+│  ✅ Create sellControl.js    
+
+STEP 5: RUN BOT                                    
+│  ✅ node SniperBSC_MAINNET.js                       
+│  ✅ Bot monitors PancakeSwap                        
+│  ✅ Auto-buys new tokens                            
+│  ✅ Auto-sells at profit/loss targets 
+
+STEP 6: MONITOR (Optional)                         
+│  ✅ node sellControl.js (manual control)            
+│  ✅ Check BscScan for transactions                  
+│  ✅ Watch console for updates    
