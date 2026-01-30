@@ -34,11 +34,11 @@ STEP 2: FUND CONTRACT
 STEP 3: SETUP BOT FILES                            
 │  ✅ npm install ethers dotenv                       
 │  ✅ Create SniperBSC_MAINNET.js                     
-│  ✅ Create AutoSeller.js                            
+│  ✅ Create AutoSell.js                            
 │  ✅ Create sellControl.js    
 
 STEP 5: RUN BOT                                    
-│  ✅ node SniperBSC_MAINNET.js                       
+│  ✅ node BscSniper.js                       
 │  ✅ Bot monitors PancakeSwap                        
 │  ✅ Auto-buys new tokens                            
 │  ✅ Auto-sells at profit/loss targets 
